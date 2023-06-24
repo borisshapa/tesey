@@ -1,0 +1,10 @@
+torch~=2.0.1
+PyYAML~=6.0
+ujson~=5.7.0
+transformers~=4.29.2
+Scrapy~=2.9.0
+itemadapter~=0.8.0
+loguru~=0.7.0
+numpy~=1.24.3
+wandb~=0.15.4
+tqdm~=4.65.0

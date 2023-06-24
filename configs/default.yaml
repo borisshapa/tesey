@@ -1,0 +1,16 @@
+seed: 21
+model:
+  segmentation_bert: "cointegrated/rubert-tiny2"
+data:
+  train: "data/sentence_embeddings_train.jsonl"
+  val: "data/sentence_embeddings_val.jsonl"
+  test: "data/sentence_embeddings_test.jsonl"
+  emb_size: 1024
+train:
+  max_len: 2048
+  batch_size: 32
+  device: "cuda"
+  epochs: 10
+  lr: 1.e-4
+  log_every: 10
+
