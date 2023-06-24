@@ -25,7 +25,7 @@ def _configure_parser() -> argparse.ArgumentParser:
         help="path to test dataset",
     )
     parser.add_argument(
-        "--max-len", type=int, default=514, help="limit on input length"
+        "--max-len", type=int, default=512, help="limit on input length"
     )
     return parser
 
