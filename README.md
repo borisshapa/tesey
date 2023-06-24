@@ -131,7 +131,7 @@ python -m scripts.eval_structural_text_segmentation \
 ```
 model can be either `dennlinger/roberta-cls-consec` or `dennlinger/roberta-cls-consec`
 
-#### Unsupervised Text Segmentation Using Semantic Relatedness Graphs
+### Unsupervised Text Segmentation Using Semantic Relatedness Graphs
 
 To run the algorithm from the paper [Unsupervised Text Segmentation Using Semantic Relatedness Graphs](https://aclanthology.org/S16-2016.pdf) run the following command:
 
